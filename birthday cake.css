@@ -13,6 +13,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 .container {
@@ -373,7 +374,7 @@ body {
     margin: 0 auto;
     position: absolute;
     top: -52vh;
-    left: -48vw;
+    left: -50vw;
 }
 
 .balloon {
@@ -456,10 +457,10 @@ body {
     background: rgba(180, 224, 67, 0.9);
     left: calc(var(--space-between-balloon)*4);
     box-shadow: inset 10px 10px 10px rgba(158, 206, 34, 0.9);
-    -webkit-animation: balloon3 5s ease-in-out infinite;
-    -moz-animation: balloon3 5s ease-in-out infinite;
-    -o-animation: balloon3 5s ease-in-out infinite;
-    animation: balloon3 5s ease-in-out infinite;
+    -webkit-animation: balloon3 3s ease-in-out infinite;
+    -moz-animation: balloon3 3s ease-in-out infinite;
+    -o-animation: balloon3 3s ease-in-out infinite;
+    animation: balloon3 3s ease-in-out infinite;
 }
 
 .balloon>div:nth-child(5):before {
@@ -470,10 +471,10 @@ body {
     background: rgba(242, 194, 58, 0.9);
     left: calc(var(--space-between-balloon)*5);
     box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
-    -webkit-animation: balloon4 6s ease-in-out infinite;
-    -moz-animation: balloon4 6s ease-in-out infinite;
-    -o-animation: balloon4 6s ease-in-out infinite;
-    animation: balloon4 6s ease-in-out infinite;
+    -webkit-animation: balloon4 4s ease-in-out infinite;
+    -moz-animation: balloon4 4s ease-in-out infinite;
+    -o-animation: balloon4 4s ease-in-out infinite;
+    animation: balloon4 4s ease-in-out infinite;
 }
 
 .balloon>div:nth-child(6):before {
@@ -512,10 +513,10 @@ body {
     background: rgba(242, 112, 45, 0.9);
     left: calc(var(--space-between-balloon)*8);
     box-shadow: inset 10px 10px 10px rgba(222, 85, 14, 0.9);
-    -webkit-animation: balloon2 6s ease-in-out infinite;
-    -moz-animation: balloon2 6s ease-in-out infinite;
-    -o-animation: balloon2 6s ease-in-out infinite;
-    animation: balloon2 6s ease-in-out infinite;
+    -webkit-animation: balloon2 5s ease-in-out infinite;
+    -moz-animation: balloon2 5s ease-in-out infinite;
+    -o-animation: balloon2 5s ease-in-out infinite;
+    animation: balloon2 5s ease-in-out infinite;
 }
 
 .balloon>div:nth-child(9):before {
@@ -540,10 +541,10 @@ body {
     background: rgba(180, 224, 67, 0.9);
     left: calc(var(--space-between-balloon)*10);
     box-shadow: inset 10px 10px 10px rgba(158, 206, 34, 0.9);
-    -webkit-animation: balloon3 5s ease-in-out infinite;
-    -moz-animation: balloon3 5s ease-in-out infinite;
-    -o-animation: balloon3 5s ease-in-out infinite;
-    animation: balloon3 5s ease-in-out infinite;
+    -webkit-animation: balloon3 4s ease-in-out infinite;
+    -moz-animation: balloon3 4s ease-in-out infinite;
+    -o-animation: balloon3 4s ease-in-out infinite;
+    animation: balloon3 4s ease-in-out infinite;
 }
 
 .balloon>div:nth-child(11):before {
@@ -568,10 +569,10 @@ body {
     background: rgba(182, 15, 97, 0.9);
     left: calc(var(--space-between-balloon)*12);
     box-shadow: inset 10px 10px 10px rgba(135, 11, 72, 0.9);
-    -webkit-animation: balloon1 6s ease-in-out infinite;
-    -moz-animation: balloon1 6s ease-in-out infinite;
-    -o-animation: balloon1 6s ease-in-out infinite;
-    animation: balloon1 6s ease-in-out infinite;
+    -webkit-animation: balloon1 4s ease-in-out infinite;
+    -moz-animation: balloon1 4s ease-in-out infinite;
+    -o-animation: balloon1 4s ease-in-out infinite;
+    animation: balloon1 4s ease-in-out infinite;
 }
 
 .balloon>div:nth-child(13):before {
