@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Square+Peg' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="birthday cake.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <title>Document</title>
 
     <script>
@@ -17,16 +18,15 @@
     </script>
 
     <script>
-        window.open = function () { };
-        window.print = function () { };
+        window.open = function() {};
+        window.print = function() {};
         // Support hover state for mobile.
         if (false) {
-            window.ontouchstart = function () { };
+            window.ontouchstart = function() {};
         }
     </script>
 
-    <script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js">
-    </script>
+
 
 </head>
 
@@ -49,7 +49,7 @@
         <div class="candle" style="margin-left: 120px;"></div>
         <div class="candle" style="margin-left: 140px;"></div>
         <div class="candle" style="margin-left: 160px;"></div>
-        <div class="numberFlame">
+        <div class="numberFlame ">
             <div class="one">+</div>
             <div class="two">+</div>
             <div class="three">+</div>
@@ -100,14 +100,18 @@
         </div>
 
         <div class="control-container">
-            <button>A</button>
-            <button>A</button>
-            <button>A</button>
+            <button id="lighting-candle">Thắp/Thổi nến</button>
+            <!-- <button id="blow-out-candle">Thổi nến</button> -->
+            <button id="turn-on-music">Bật nhạc</button>
+            <button id="turn-off-music">Tắt nhạc</button>
         </div>
 
+        <audio class="audio" id="audio" controls type="audio/mpeg">
+            <source src="Happy Birthday Remix - DJ.mp3">
+        </audio>
     </div>
 
-    <!-- <script src="birthday cake.css"></script> -->
+    <script type="module" src="./main.js"></script>
 </body>
 
 </html>
